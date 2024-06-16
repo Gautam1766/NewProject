@@ -14,14 +14,14 @@ public class Login1 {
 		ldriver=d;
 		PageFactory.initElements(ldriver, this);
 	}
-	@FindBy(id="username") WebElement UN;
+	@FindBy(id="username") WebElement Uesr_Names;
 	@FindBy(id="password") WebElement PW;
 	@FindBy(id="submit") WebElement Submit; 
 
 	
 	public void usern(String Uname) 
 	{
-		UN.sendKeys(Uname);
+		Uesr_Names.sendKeys(Uname);
 	}
 	public void passw(String Passw) 
 	{
